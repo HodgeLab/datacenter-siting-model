@@ -17,7 +17,7 @@ The packages and versions used are in siting_env.yml
 
 4. For setting up sweep of different parameters --> sweeps.py
    
-4a. To run the sweeps --> run_sweeps.py
+5. To run the sweeps --> run_sweeps.py
 
-5. After running the sweep, to visualize sweep results --> visualize_sweeps.py
+6. After running the sweep, to visualize sweep results --> visualize_sweeps.py
 
