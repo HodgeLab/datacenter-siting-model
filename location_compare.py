@@ -33,7 +33,7 @@ class LocationComparisonAnalyzer:
         )
 
 
-# ==================== APPROACH 1: SINGLE OPTIMIZATION ====================
+# APPROACH 1: SINGLE OPTIMIZATION 
 def compare_locations_single_optimization(analyzer: LocationComparisonAnalyzer, 
                                          target_locations: List[int],
                                          config: OptimizationConfig) -> Dict[str, Any]:
@@ -96,7 +96,7 @@ def compare_locations_single_optimization(analyzer: LocationComparisonAnalyzer,
     }
 
 
-# ==================== APPROACH 2: INDIVIDUAL COMPARISONS ====================
+# APPROACH 2: INDIVIDUAL COMPARISONS
 def compare_locations_individual_runs(analyzer: LocationComparisonAnalyzer,
                                      target_locations: List[int],
                                      config: OptimizationConfig) -> Dict[str, Any]:
@@ -186,7 +186,7 @@ def compare_locations_individual_runs(analyzer: LocationComparisonAnalyzer,
     }
 
 
-# ==================== APPROACH 3: COMPARISON TABLE ====================
+# APPROACH 3: COMPARISON TABLE 
 def create_location_comparison_table(analyzer: LocationComparisonAnalyzer,
                                     target_locations: List[int]) -> pd.DataFrame:
     """
@@ -236,7 +236,7 @@ def create_location_comparison_table(analyzer: LocationComparisonAnalyzer,
     return df
 
 
-# ==================== COMBINED ANALYSIS ====================
+# COMBINED ANALYSIS 
 def comprehensive_location_analysis(file_paths: Dict[str, str],
                                    target_locations: List[int],
                                    config: OptimizationConfig = None) -> Dict[str, Any]:
@@ -311,7 +311,7 @@ def print_comprehensive_results(results: Dict[str, Any]):
                  'trans_dist', 'water_risk']].to_string(index=False))
 
 
-# ==================== EXAMPLE USAGE ====================
+# EXAMPLE USAGE 
 if __name__ == "__main__":
     
     # Example file paths
@@ -343,7 +343,7 @@ if __name__ == "__main__":
         print("\nDetailed comparison saved to 'location_comparison.csv'")
 
 
-# ==================== RECOMMENDATION ====================
+# RECOMMENDATION
 """
 RECOMMENDATIONS:
 

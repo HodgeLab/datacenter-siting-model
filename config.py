@@ -1,11 +1,6 @@
 config = dict(
     curtail_penalty=20, #($/MWh)
     ren_export_price=5, #($/MWh) 5 default
-    #slack_penalty=1e5,
-    #max_storage_cap=100, # (MW)
-    #min_storage_cap=10, # (MW)
-    #max_charge_rate=50, # (MW)
-    #max_discharge_rate=20, # (MW)
     min_locations=10,
     max_locations=10, 
     ren_penetration=0.9, 
